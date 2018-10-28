@@ -5,4 +5,4 @@ Start-frequency/end-frequency is defined to be the number of trips that start/en
 
 The plots are html files using Google Maps API and gmplot. Please open in a new tab to see the plots.
 
-Currently, the available plots demonstrate the stations with the highest star-frequencies and end-frequencies.
+Currently, the available plots demonstrate the stations with the highest star-frequencies and end-frequencies. Please download to view the plots.
