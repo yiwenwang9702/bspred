@@ -3,7 +3,9 @@
 A brief analysis trying to predict bike sharing usage.
 
 Arrivals: number of trips that end at a station per day. 
+
 Departures: number of trips that start at a station per day. 
+
 Characteristic bike sharing usage: prediction of bike sharing usage at a specific location, given that there are no bike stations in a vicinity of the location.
 
 The plots are html files using Google Maps API and gmplot. Please download and open in a new tab to see the plots. The available plots demonstrate the stations with the highest Departures and Arrivals. 
