@@ -10,6 +10,8 @@ Characteristic bike sharing usage: prediction of bike sharing usage at a specifi
 
 The plots are html files using Google Maps API and gmplot. Please download and open in a new tab to see the plots. The available plots demonstrate the stations with the highest Departures and Arrivals. 
 
+The predictive models are built by using Keras. Please make sure Keras is available to make predictions.
+
 This is a python library in process. Currently, the available function is to predict the characteristic bike sharing usage given one or more coordinates in the form of a pandas dataframe.
 
 An example and other functions will be updated soon.
