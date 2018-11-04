@@ -7,7 +7,7 @@ Arrivals: number of trips that end at a station per day.
 
 Departures: number of trips that start at a station per day. 
 
-Characteristic bike sharing usage: prediction of bike sharing usage at a specific location, given that there are no bike stations in a vicinity of the location.
+Characteristic prediction: prediction of bike sharing usage at a specific location, given that there are no bike stations in a vicinity of the location.
 
 ## Dependency
 numpy, pandas, keras
