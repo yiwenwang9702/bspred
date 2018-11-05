@@ -39,6 +39,12 @@ data = pd.DataFrame({
 
 Please notice that this is not the true bike sharing usage, but rather an order of magnitude analysis.
 
+```python
+bsprediction.predict(data)
+```
+The results will: 
+Arrivals = 826.452942, Arrivals_CI = [821.8796256964637, 831.0262580925988]
+
 2. Prediction of bike sharing usage given the current active Citibike stations.
 
 The result will be a pandas dataframe of the predicted bike sharing usage 
