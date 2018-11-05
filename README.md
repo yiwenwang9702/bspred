@@ -16,7 +16,8 @@ Departures: number of trips that start at a station per day.
 Characteristic prediction: prediction of bike sharing usage at a specific location, given that there are no bike stations in a vicinity of the location.
 
 ## Dependency
-numpy, pandas, keras
+
+keras
 
 ## Library Description
 
