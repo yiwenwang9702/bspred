@@ -20,7 +20,7 @@ numpy, pandas, keras
 
 ## Library Description
 
-This is a python library in process. 
+This is a python library in progress. 
 
 There are two kinds of prediction available. All predictions come with asymptotica 95% confidence intervals.
 
