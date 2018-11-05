@@ -5,7 +5,7 @@ Please download and open the html files to see the plots. The available plots de
 To install, please do:
 
 ```bash
-pip install bsprediction
+pip install bspred
 ```
 
 ## Key Variables
@@ -25,7 +25,7 @@ This is a python library in progress.
 There are two kinds of prediction available. All predictions come with asymptotica 95% confidence intervals.
 
 ```python
-import bsprediction 
+import bspred
 import numpy as np
 import pandas as pd
 
@@ -40,7 +40,7 @@ data = pd.DataFrame({
 Please notice that this is not the true bike sharing usage, but rather an order of magnitude analysis.
 
 ```python
-bsprediction.predict(data)
+bspred.predict(data)
 ```
 The results will be: 
 
@@ -51,7 +51,7 @@ Departures = 839.163513, Departures_CI = [834.5198609039221, 843.8071654632654]
 2. Prediction of bike sharing usage given the current active Citibike stations.
 
 ```python
-bsprediction.predict_with_Citibike(data)
+bspred.predict_with_Citibike(data)
 ```
 
 The result will be a pandas dataframe of the predicted bike sharing usage at current bike stations and the newly added ones.
@@ -64,7 +64,7 @@ Departures = 474.2624, Departures_CI = [471.63796142662545, 476.88678244901826]
 If removing some current Citibike stations is desired, a list of the station names can be passed as remove_list:
 
 ```python
-bsprediction.predict_with_Citibike(data, remove_list = [])
+bspred.predict_with_Citibike(data, remove_list = [])
 ```
 
 The names can be extracted from https://member.citibikenyc.com/map/.
@@ -72,7 +72,7 @@ The names can be extracted from https://member.citibikenyc.com/map/.
 Or, to view the current Citibike trip history data, run:
 
 ```python
-path = bsprediction.get_path()
+path = bspred.get_path()
 df = pd.read_csv(path + '/stations_reshaped.csv', sep=',', engine='python')
 df
 ```
