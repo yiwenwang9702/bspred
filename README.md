@@ -24,6 +24,17 @@ This is a python library in process.
 
 There are two kinds of prediction available. All predictions come with asymptotica 95% confidence intervals.
 
+```python
+import bsprediction 
+import numpy as np
+import pandas as pd
+
+data = pd.DataFrame({
+    'latitude':[40.75058535], 
+    'longitude':[-73.99468482]
+})
+```
+
 1. Prediction of characteristic bike sharing usage. 
 
 Please notice that this is not the true bike sharing usage, but rather an order of magnitude analysis.
