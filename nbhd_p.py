@@ -3,10 +3,11 @@
 import pandas as pd
 import numpy as np
 import os
+from .get_path import *
 
 def get_dfs():
-    path = os.getcwd()
-    city_data_path = path + '/city_data/'
+    path = get_path()
+    city_data_path = path + 'city_data/'
 
     dfs = {}
     for root, dirs, files in os.walk(city_data_path):

@@ -17,8 +17,11 @@ def get_matrix(df):
             c_j = [temporary_1['latitude'],temporary_1['longitude']]
             if abs(c_i[0]-c_j[0]) < 0.01 and abs(c_i[1]-c_j[1]) < 0.01:
                 k = distance(c_i,c_j)/0.001
-                if k < 7:
+                if k < 3:
+                    matrix[i][i] += 1
+                elif k < 5:
                     index = sigmoid(k)
                     matrix[i][j]=index
                     matrix[j][i]=index
     return matrix
+
