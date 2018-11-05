@@ -22,7 +22,7 @@ numpy, pandas, keras
 
 This is a python library in progress. 
 
-There are two kinds of prediction available. All predictions come with asymptotica 95% confidence intervals.
+There are two kinds of prediction available. All predictions come with asymptotic 95% confidence intervals.
 
 ```python
 import bspred
