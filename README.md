@@ -19,9 +19,9 @@ Characteristic prediction: prediction of bike sharing usage at a specific locati
 
 keras
 
-## Library Description
+## Description
 
-This is a python library in progress. 
+This is a package in progress. 
 
 There are two kinds of prediction available. All predictions come with asymptotic 95% confidence intervals.
 
