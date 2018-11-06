@@ -45,9 +45,9 @@ bspred.predict(data)
 ```
 The results will be: 
 
-Arrivals = 826.452942, Arrivals_CI = [821.8796256964637, 831.0262580925988]
+Arrivals = 826.452942,
 
-Departures = 839.163513, Departures_CI = [834.5198609039221, 843.8071654632654]
+Departures = 839.163513.
 
 2. Prediction of bike sharing usage given the current active Citibike stations.
 
@@ -59,9 +59,9 @@ The result will be a pandas dataframe of the predicted bike sharing usage at cur
 
 The last row of the dataframe, which is the prediction of bike sharing usage at the new bike station, will be:
 
-Arrivals = 441.030067, Arrivals_CI = [438.58955342277693, 443.4705813647262]
+Arrivals = 441.030067,
 
-Departures = 474.2624, Departures_CI = [471.63796142662545, 476.88678244901826]
+Departures = 474.2624.
 
 If removing some current Citibike stations is desired, a list of the station names can be passed as remove_list:
 
