@@ -21,7 +21,7 @@ keras
 
 ## Description
 
-This is a package in progress. 
+This is a project in progress. 
 
 There are two kinds of prediction available. All predictions come with asymptotic 95% confidence intervals.
 
