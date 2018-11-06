@@ -36,7 +36,7 @@ data = pd.DataFrame({
 })
 ```
 
-1. Prediction of characteristic bike sharing usage. 
+1. Prediction of bike sharing usage without current Citibike stations. 
 
 Please notice that this is not the true bike sharing usage, but rather an order of magnitude analysis.
 
