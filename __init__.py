@@ -10,18 +10,15 @@ from .nbhd_p import *
 from .pre_by_model import *
 from .get_path import *
 
-def confidence_interval(Arrivals, Departures,std = 0.019657):
+def confidence_interval(Arrivals, Departures, delta_d=23.654, delta_a=26.984):
     l = len(Arrivals)
-    r = 1.96 * std
-    lw = 1-r
-    up = 1+r
     Arrivals_CI = []
     Departures_CI = []
     for i in range(l):
         a = Arrivals[i]
         d = Departures[i]
-        a_CI = [a*lw, a*up]
-        d_CI = [d*lw, d*up]
+        a_CI = [a - delta_a, a + delta_a]
+        d_CI = [d - delta_d, d + delta_d]
         Arrivals_CI.append(a_CI)
         Departures_CI.append(d_CI)
     return Arrivals_CI, Departures_CI
