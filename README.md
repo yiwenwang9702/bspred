@@ -32,4 +32,3 @@ A quick visualization by using bokeh :
 p = bspred.plot_with_new(df)
 show(p)
 ```
-

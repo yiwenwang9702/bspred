@@ -49,8 +49,13 @@ def general_profile(coordinates, df, unit, whole_range):
 
 def get_neighborhood_profile(coordinates, neighborhood, unit=0.001, whole_range=50):
     profile = []
+<<<<<<< HEAD
     nbhd_names = ['Business', 'Property', 'MTA', 'Bus', 'Violation', 'Misdemeanor', 'Felony']
     for i in nbhd_names:
+=======
+    names = ['Business', 'Property', 'MTA', 'Buses', 'Violation', 'Misdemeanor', 'Felony']
+    for i in names:
+>>>>>>> 7d480542688dad1b9f89e737570c2dd98507b3b3
         profile += general_profile(coordinates, neighborhood[i], unit, whole_range)
     return profile
 

@@ -4,6 +4,7 @@ import googlemaps
 from sklearn.externals import joblib
 from sklearn import base
 
+
 import os
 import sys
 
@@ -11,7 +12,7 @@ from .bs_matrix import *
 from .nbhd_p import *
 from .get_path import *
 from .plot_new import *
-name = 'bspred'
+
 path = get_path()
 stations = pd.read_csv(path+'stations.csv', sep = ',', engine='python')
 
@@ -71,8 +72,3 @@ def predict(addresses, key=None):
     df_raw['Characteristic_Arrivals'] = ac
     df_raw['Characteristic_Departures'] = dc
     return df_raw
-
-
-
-
-
